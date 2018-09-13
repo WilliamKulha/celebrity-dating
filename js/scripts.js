@@ -13,22 +13,34 @@ $(document).ready(function(){
 
     if (gender) {
       if (gender === 'men' && age === '1' && wildness <= '2') {
+        $('.celeb-cards').slideUp();
+        $('#matt').slideDown();
+      } else if (gender === 'men' && age ==='1' && wildness ==='3'){
+        $('.celeb-cards').slideUp();
         $('#shemar').slideDown();
       } else if (gender === 'men' && age === '2'&& wildness === '1') {
+        $('.celeb-cards').slideUp();
         $('#daniel').slideDown();
       } else if (gender === 'men' && age === '2' && wildness <= '2') {
+        $('.celeb-cards').slideUp();
         $('#idris').slideDown();
       } else if (gender === 'men' && age === '3' && wildness <= '3') {
+        $('.celeb-cards').slideUp();
         $('#ian').slideDown();
       } else if (gender === 'women' && age === '1' && wildness <= '2') {
+        $('.celeb-cards').slideUp();
         $('#selena').slideDown();
       } else if (gender === 'women' && age === '1' && wildness === '3') {
+        $('.celeb-cards').slideUp();
         $('#rihanna').slideDown();
       } else if (gender === 'women' && age === '2' && wildness <= '2') {
+        $('.celeb-cards').slideUp();
         $('#gwen').slideDown();
       } else if (gender === 'women' && age === '2' && wildness === '3') {
+        $('.celeb-cards').slideUp();
         $('#sofia').slideDown();
       } else if (gender === 'women' && age === '3' && wildness <='3') {
+        $('.celeb-cards').slideUp();
         $('#heidi').slideDown();
       }
     } else {
