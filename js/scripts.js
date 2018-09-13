@@ -12,6 +12,7 @@ $(document).ready(function(){
     var wildness = $('input:radio[name=wildRadios]:checked').val();
 
     if (gender) {
+      $('div#genderForm').removeClass('has-error');
       if (gender === 'men' && age === '1' && wildness <= '2') {
         $('.celeb-cards').slideUp();
         $('#matt').slideDown();
